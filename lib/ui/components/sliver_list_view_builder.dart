@@ -25,6 +25,7 @@ class SliverListViewBuilder extends StatelessWidget {
             );
           },
           childCount: list.length,
+          semanticIndexOffset: 5,
         ),
       );
     }

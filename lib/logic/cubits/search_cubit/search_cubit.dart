@@ -9,6 +9,7 @@ class SearchCubit extends Cubit<SearchState> {
 
   late String word;
   Future<void> search(String searchedWord) async {
+    print('called');
     word = searchedWord;
     emit(SearchLoadingState());
     try {

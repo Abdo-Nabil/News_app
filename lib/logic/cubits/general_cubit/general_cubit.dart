@@ -42,8 +42,8 @@ class GeneralCubit extends Cubit<GeneralState> {
       }
       try {
         // await Future.delayed(Duration(seconds: 5));
-        Map<String, dynamic> response =
-            await FunctionHelper.getNews('business');
+        Map<String, dynamic> response = map;
+        //await FunctionHelper.getNews('business');
         print('Business Request Done');
         businessNews = response['articles'];
         emit(GetBusinessNewsState(elements: businessNews));
@@ -63,7 +63,8 @@ class GeneralCubit extends Cubit<GeneralState> {
       }
       try {
         // await Future.delayed(Duration(seconds: 5));
-        Map<String, dynamic> response = await FunctionHelper.getNews('science');
+        Map<String, dynamic> response = map;
+        // await FunctionHelper.getNews('science');
         print('Science Request Done');
         scienceNews = response['articles'];
         emit(GetScienceNewsState(elements: scienceNews));
@@ -83,8 +84,8 @@ class GeneralCubit extends Cubit<GeneralState> {
       }
       try {
         // await Future.delayed(Duration(seconds: 5));
-        Map<String, dynamic> response =
-            await FunctionHelper.getNews('technology');
+        Map<String, dynamic> response = map;
+        // await FunctionHelper.getNews('technology');
         print('Technology Request Done');
         technologyNews = response['articles'];
         emit(GetTechnologyNewsState(elements: technologyNews));

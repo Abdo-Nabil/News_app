@@ -44,6 +44,7 @@ class ToastHelper {
   }
 
   static void showStackedToast(String message) {
+    _flutterToast.removeQueuedCustomToasts();
     Fluttertoast.showToast(
       msg: message,
       textColor: Colors.white,

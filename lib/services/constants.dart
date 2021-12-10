@@ -29,6 +29,7 @@ const String k_time_not_set_phrase = 'Time not set';
 const String k_dateFormat = 'EEE, MMMM d, yyyy';
 
 const int imageFadeDuration = 500;
+const int betweenTwoStrikesDuration = 3000;
 const String path = 'https://newsapi.org/v2/top-headlines';
 const String apiKey = 'ad1740e8b97346428f7e9220eb4df190'; //Abdo
 // const String apiKey = '65f7f556ec76449fa7dc7c0069f040ca'; //Mans

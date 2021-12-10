@@ -5,7 +5,20 @@ class MyThemes {
   static ThemeData getLightTheme({
     required BuildContext context,
   }) {
-    MaterialColor primarySwatch = Colors.blue;
+    Map<int, Color> colorMap = {
+      50: Color.fromRGBO(0, 103, 117, .1),
+      100: Color.fromRGBO(0, 103, 117, .2),
+      200: Color.fromRGBO(0, 103, 117, .3),
+      300: Color.fromRGBO(0, 103, 117, .4),
+      400: Color.fromRGBO(0, 103, 117, .5),
+      500: Color.fromRGBO(0, 103, 117, .6),
+      600: Color.fromRGBO(0, 103, 117, .7),
+      700: Color.fromRGBO(0, 103, 117, .8),
+      800: Color.fromRGBO(0, 103, 117, .9),
+      900: Color.fromRGBO(0, 103, 117, 1),
+    };
+    MaterialColor primarySwatch =
+        MaterialColor(Color.fromRGBO(0, 103, 117, 1).value, colorMap);
 
     final ThemeData themeData = ThemeData(
       primarySwatch: primarySwatch,
