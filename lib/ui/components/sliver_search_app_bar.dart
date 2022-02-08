@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/logic/cubits/search_cubit/search_cubit.dart';
@@ -9,13 +7,11 @@ class SliverSearchAppBar extends StatelessWidget
   @override
   Widget build(BuildContext context) {
     //
+    late String searchedWord;
     return SliverAppBar(
       actions: [
         SizedBox(
-          width: 75,
-        ),
-        const Icon(
-          Icons.search,
+          width: 60,
         ),
         Expanded(
           child: Center(
@@ -40,11 +36,22 @@ class SliverSearchAppBar extends StatelessWidget
                   color: Colors.white,
                 ),
                 onChanged: (newValue) async {
-                  await BlocProvider.of<SearchCubit>(context).search(newValue);
+                  searchedWord = newValue;
+                },
+                onFieldSubmitted: (_) async {
+                  await BlocProvider.of<SearchCubit>(context)
+                      .search(searchedWord);
                 },
               ),
             ),
           ),
+        ),
+        IconButton(
+          icon: Icon(Icons.search),
+          padding: const EdgeInsets.all(0),
+          onPressed: () async {
+            await BlocProvider.of<SearchCubit>(context).search(searchedWord);
+          },
         ),
       ],
     );

@@ -26,6 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     ToastHelper.initializeToast(context);
+    // SystemChrome.setEnabledSystemUIOverlays([]);
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
@@ -113,7 +114,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       return Center(
                         child: AlertDialog(
                           title: Text('Hint !'),
-                          content: Text('Pull to refresh the page.'),
+                          content: Text('Pull down to refresh the page.'),
                           actions: <Widget>[
                             TextButton(
                               child: Text('I know'),
