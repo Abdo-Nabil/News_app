@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:news_app/services/constants.dart';
 import 'package:news_app/ui/components/rotated_text.dart';
 import 'package:news_app/ui/components/web_view_screen.dart';
-import 'package:webview_flutter/webview_flutter.dart';
 
 class ArticleBuilder extends StatelessWidget {
   final String articleUrl;
