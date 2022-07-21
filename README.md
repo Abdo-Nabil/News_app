@@ -1,16 +1,43 @@
-# news_app
+<!-- vertical space &nbsp; -->
 
-A new Flutter project.
+# <img src="https://drive.google.com/uc?export=view&id=1HWaJxqdnVIvM4Dqp46IftT2kOULdkvpz" alt="Icon" width="25"/>&ensp;NEWs App
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## A simple news app using bloc architecture with network and error handling.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## ⚡&ensp;Key features
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*  No Ads at all.
+
+* Simple interface, easy to use.
+
+* Different news categories (Business, Science, Technology).
+
+* Supporting both light and dark mode.
+
+* Search for a specific topic.
+
+* Great support and more!
+---
+
+## ☎️&ensp;abdo.sw.eng@gmail.com
+
+
+
+## ✌&ensp;Preview
+
+&ensp;
+
+
+![image1](https://drive.google.com/uc?export=view&id=187ySE-L0alY5LmHg81f2I13vwVcUc07W)
+
+
+![image2](https://drive.google.com/uc?export=view&id=145euoHBYOJiYwfnu2r5T7UprzBIQgVZ6)
+
+
+![image3](https://drive.google.com/uc?export=view&id=1YzwvOh7KpEBziPQGh_o0VfPEPFbQKp5w)
+
+
+
+
