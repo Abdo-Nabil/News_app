@@ -1,9 +1,10 @@
 <!-- vertical space &nbsp; -->
 
-# <img src="https://drive.google.com/uc?export=view&id=1HWaJxqdnVIvM4Dqp46IftT2kOULdkvpz" alt="Icon" width="25"/>&ensp;NEWs App
+# <img src=screenshots/launcher_icon.png alt="Icon" width="25"/>&ensp;NEWs App
 
 
 ## A simple news app using bloc architecture with network and error handling.
+<<<<<<< HEAD
 
 
 ## ⚡&ensp;Key features
@@ -37,4 +38,5 @@
 
 
 ![image3](screenshots/Slide2)
+=======
 
