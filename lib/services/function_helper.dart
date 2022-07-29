@@ -35,7 +35,7 @@ class FunctionHelper {
       'newsapi.org',
       '/v2/top-headlines',
       {
-        'country': 'eg',
+        'country': 'us',
         'category': category,
         'apiKey': apiKey,
       },
@@ -49,7 +49,7 @@ class FunctionHelper {
       'newsapi.org',
       '/v2/top-headlines',
       {
-        'country': 'eg',
+        'country': 'us',
         'q': searchedWord,
         'apiKey': apiKey,
       },
