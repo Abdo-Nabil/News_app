@@ -4,7 +4,6 @@
 
 
 ## A simple news app using bloc architecture with network and error handling.
-<<<<<<< HEAD
 
 
 ## ⚡&ensp;Key features
@@ -31,12 +30,12 @@
 &ensp;
 
 
-![image1](screenshots/Slide1)
+![image1](screenshots/Slide1.PNG)
 
 
-![image2](screenshots/Slide2)
+![image2](screenshots/Slide2.PNG)
 
 
-![image3](screenshots/Slide2)
+![image3](screenshots/Slide2.PNG)
 =======
 
