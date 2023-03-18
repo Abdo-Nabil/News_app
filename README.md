@@ -36,6 +36,6 @@
 ![image2](screenshots/Slide2.PNG)
 
 
-![image3](screenshots/Slide2.PNG)
+![image3](screenshots/Slide3.PNG)
 =======
 
